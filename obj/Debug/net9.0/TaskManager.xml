@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaskManager</name>
+    </assembly>
+    <members>
+        <member name="M:TaskManager.Controllers.TasksController.CreateTask(TaskManager.DTOs.CreateTaskDto)">
+            <summary>Creates a new task.</summary>
+            <param name="dto">Task details</param>
+            <returns>The newly created task</returns>
+            <response code="201">Task created successfully</response>
+            <response code="400">Validation failed</response>
+        </member>
+        <member name="M:TaskManager.Controllers.TasksController.GetTasks">
+            <summary>Retrieves all tasks ordered by creation date.</summary>
+            <returns>List of all tasks</returns>
+            <response code="200">Returns the list of tasks</response>
+        </member>
+        <member name="M:TaskManager.Controllers.TasksController.GetTask(System.Guid)">
+            <summary>Retrieves a single task by ID.</summary>
+            <param name="id">The task GUID</param>
+            <returns>The requested task</returns>
+            <response code="200">Task found</response>
+            <response code="404">Task not found</response>
+        </member>
+        <member name="M:TaskManager.Controllers.TasksController.UpdateTask(System.Guid,TaskManager.DTOs.UpdateTaskDto)">
+            <summary>Updates an existing task.</summary>
+            <param name="id">The task GUID</param>
+            <param name="dto">Updated task details</param>
+            <returns>The updated task</returns>
+            <response code="200">Task updated successfully</response>
+            <response code="400">Validation failed</response>
+            <response code="404">Task not found</response>
+        </member>
+        <member name="M:TaskManager.Controllers.TasksController.DeleteTask(System.Guid)">
+            <summary>Deletes a task by ID.</summary>
+            <param name="id">The task GUID</param>
+            <response code="204">Task deleted successfully</response>
+            <response code="404">Task not found</response>
+        </member>
+        <member name="T:TaskManager.Migrations.InitialSetup">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskManager.Migrations.InitialSetup.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskManager.Migrations.InitialSetup.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskManager.Migrations.InitialSetup.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\bmaku\source\repos\TaskManager\TaskManager\obj\Debug\net9.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\bmaku\source\repos\TaskManager\TaskManager\obj\Debug\net9.0\PubTmp\EFSQLScripts\TaskManager.Data.AppDbContext.sql" />
+</sitemanifest>
