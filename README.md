@@ -7,7 +7,7 @@ The backend for the Task Management System. Built with .NET 9 Web API, following
 ## Live Demo
 
 **API:** http://taskmanagerapp26.runasp.net/api/tasks  
-**Swagger UI:** http://taskmanagerapp26.runasp.net/swagger/index.html  
+**Swagger UI:** http://taskmanagerapp26.runasp.net/index.html  
 **Frontend Repository:** https://github.com/makumi10/taskmanager-frontend.git
 
 ---
@@ -91,7 +91,7 @@ There are three ways to run this project depending on your available resources:
 
 If you don't want to set up a local environment, the API is already live and fully functional. You can interact with it directly via Swagger UI or any API client such as Postman:
 
-- **Swagger UI:** http://taskmanagerapp26.runasp.net/swagger/index.html
+- **Swagger UI:** http://taskmanagerapp26.runasp.net/index.html
 - **API Base URL:** http://taskmanagerapp26.runasp.net/api/tasks
 
 This is the recommended option if you just want to explore or test the API without any local setup.
@@ -164,10 +164,10 @@ https://localhost:{port}/swagger
 
 ```json
 {
-  "title": "Design system architecture",
-  "description": "Define the microservices breakdown and communication patterns.",
-  "status": "in_progress",
-  "dueDate": "2026-03-05T23:59:59.000Z"
+  "title": "Evening 5km Walk",
+  "description": "Complete a steady 5km walk and log the activity on Strava.",
+  "status": "pending",
+  "dueDate": "2026-03-01T00:00:00.000Z"
 }
 ```
 
@@ -264,19 +264,6 @@ The app uses SQL Server for both local development and production. Update the co
 - **Title** — required, maximum 255 characters
 - **Status** — must be one of `pending`, `in_progress`, or `completed`
 - **Due Date** — optional, but cannot be a date in the past
-
----
-
-## Screenshots
-
-### Swagger UI
-![Swagger UI Screenshot](screenshots/SwaggerUI.png)
-
-### Create Task
-![Create Task Screenshot](screenshots/CreateTask.png)
-
-### Get All Tasks
-![Get All Tasks Screenshot](screenshots/GetAllTasks.png)
 
 ---
 

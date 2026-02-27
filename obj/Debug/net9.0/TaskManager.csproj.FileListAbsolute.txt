@@ -157,6 +157,10 @@ C:\Users\bmaku\source\repos\TaskManager\TaskManager\obj\Debug\net9.0\staticwebas
 C:\Users\bmaku\source\repos\TaskManager\TaskManager\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\bmaku\source\repos\TaskManager\TaskManager\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\bmaku\source\repos\TaskManager\TaskManager\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+<<<<<<< HEAD
+=======
+C:\Users\bmaku\source\repos\TaskManager\TaskManager\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+>>>>>>> e7702b598a711cbca8365683acc0802fdb12bcc5
 C:\Users\bmaku\source\repos\TaskManager\TaskManager\obj\Debug\net9.0\TaskMana.F3FB485A.Up2Date
 C:\Users\bmaku\source\repos\TaskManager\TaskManager\obj\Debug\net9.0\TaskManager.dll
 C:\Users\bmaku\source\repos\TaskManager\TaskManager\obj\Debug\net9.0\refint\TaskManager.dll
@@ -165,4 +169,7 @@ C:\Users\bmaku\source\repos\TaskManager\TaskManager\obj\Debug\net9.0\TaskManager
 C:\Users\bmaku\source\repos\TaskManager\TaskManager\obj\Debug\net9.0\ref\TaskManager.dll
 C:\Users\bmaku\source\repos\TaskManager\TaskManager\bin\Debug\net9.0\TaskManager.xml
 C:\Users\bmaku\source\repos\TaskManager\TaskManager\obj\Debug\net9.0\TaskManager.xml
+<<<<<<< HEAD
 C:\Users\bmaku\source\repos\TaskManager\TaskManager\obj\Debug\net9.0\TaskManager.sourcelink.json
+=======
+>>>>>>> e7702b598a711cbca8365683acc0802fdb12bcc5
