@@ -49,7 +49,7 @@ namespace TaskManager
                     Contact = new OpenApiContact
                     {
                         Name = "Brian Makumi",
-                        Email = "your-email@example.com"
+                        Email = "bmakumi2000@gmail.com"
                     }
                 });
 
